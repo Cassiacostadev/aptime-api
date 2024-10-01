@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100% !important;
+  background-color: #f6f6f6; 
+}
+
+ /****************************************Utils****************************************/
+ .centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .search-centered {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ }
+
+ .loading {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+ }
+
+ .loading .col-lg-12 {
+  justify-content: center;
+  display: flex;
+ }
